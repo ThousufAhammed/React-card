@@ -1,0 +1,26 @@
+.card-container {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+}
+.card-container .card-image {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+.card-container .head {
+    font-family: sans-serif;
+    margin: 0;
+    color: black;
+}
+.card-container .para {
+    font-family: monospace;
+    font-size: small;
+    font-weight: lighter;
+}
